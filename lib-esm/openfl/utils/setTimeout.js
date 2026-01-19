@@ -1,2 +1,1 @@
-import { default as Lib } from "./../../_gen/openfl/Lib";
-export default Lib.setTimeout;
+export default window.setTimeout.bind(window);
